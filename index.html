@@ -3,28 +3,64 @@
 	<head>
 		<link rel="stylesheet" href="style.css" />
 		<script type="text/javascript" src='script.js'></script>
-		<title>Изучение свойств display</title>
+		<title>Изуче<!DOCTYPE HTML5>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src='script.js'></script>
+		<title>Изучение свойств flex</title>
 		<meta name="description" content="Всегда думал, что знал, что такое display, но по факту кроме как display:none и display:block ничем больше и не пользовался" />
 	</head>
-	<body>
-		<span>Свойство inline устанавливается ПО УМОЛЧАНИЮ. Работает как обычная структура DOM-дерева - сверху-вниз. Никакой тебе табличности верстки и прочих плюшек.</span>
-		<div class='inline'>
-			<div class='testBlock yellow'></div>
-			<div class='testBlock green'></div>
-			<div class='testBlock red'></div>
-		</div>
-		</br>
-		<span>Свойство block генерирует СТРУКТУРНЫЙ блок, только вот что это такое?! Также работает как обычная структура DOM-дерева - сверху-вниз.</span>
-		<div class='inlineBlock'>
-			<div class='testBlock yellow'></div>
-			<div class='testBlock green'></div>
-			<div class='testBlock red'></div>
-		</div>
-		<span>Свойство inline-block распологает все блоки горизонтально друг за другом.</span>
-		<div>
-			<div class='testBlock inline-block yellow'></div>
-			<div class='testBlock inline-block green'></div>
-			<div class='testBlock inline-block red'></div>
+	<body>		
+		<div class='main-block'>
+			<div class='block1'>
+				<div class="_block1 bblue">
+					<div class='block11 bred'>
+						<div class='block111 bblue'>
+							block111
+						</div>
+						<div class='block112 bblue'>
+							<div class='block1121 bblue'>
+								block1121
+							</div>
+							<div class='block1122 bblue'>
+								block1122
+							</div>
+						</div>
+					</div>
+					<div class='block12 bred'>
+						<ul>
+							<li>H</li>
+							<li>Компания</li>
+							<li>Новости</li>
+							<li>Каталог</li>
+							<li>Акции</li>
+							<li>Партненам</li>
+							<li>Контакты</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class='block2'>
+				<div class="_block2 bblue">
+					block2
+				</div>
+			</div>
+			<div class='block3'>
+				<div class="_block3 bblue">
+					block3
+				</div>
+			</div>
+			<div class='block4'>
+				<div class="_block4 bblue">
+					block4
+				</div>
+			</div>
+			<div class='block5'>
+				<div class="_block5 bblue">
+					block5
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
