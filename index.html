@@ -7,11 +7,24 @@
 		<meta name="description" content="Всегда думал, что знал, что такое display, но по факту кроме как display:none и display:block ничем больше и не пользовался" />
 	</head>
 	<body>
-			<span>Свойство inline устанавливается ПО УМОЛЧАНИЮ. Работает как обычная структура DOM-дерева - сверху-вниз. Никакой тебе табличности верстки и прочих плюшек.</span>
-		<div class='inline'>			
+		<span>Свойство inline устанавливается ПО УМОЛЧАНИЮ. Работает как обычная структура DOM-дерева - сверху-вниз. Никакой тебе табличности верстки и прочих плюшек.</span>
+		<div class='inline'>
 			<div class='testBlock yellow'></div>
 			<div class='testBlock green'></div>
 			<div class='testBlock red'></div>
-		</div>		
+		</div>
+		</br>
+		<span>Свойство block генерирует СТРУКТУРНЫЙ блок, только вот что это такое?! Также работает как обычная структура DOM-дерева - сверху-вниз.</span>
+		<div class='inlineBlock'>
+			<div class='testBlock yellow'></div>
+			<div class='testBlock green'></div>
+			<div class='testBlock red'></div>
+		</div>
+		<span>Свойство inline-block распологает все блоки горизонтально друг за другом.</span>
+		<div>
+			<div class='testBlock inline-block yellow'></div>
+			<div class='testBlock inline-block green'></div>
+			<div class='testBlock inline-block red'></div>
+		</div>
 	</body>
 </html>
